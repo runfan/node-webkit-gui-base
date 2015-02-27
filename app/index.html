@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Hello Node Webkit</title>
+		<link rel="stylesheet" type="text/css" href="CSS/main.css">
+		<script src="Config/settings.js"></script>
+		<script src="JS/jquery.js"></script>
+		<script src="JS/scroll.js"></script>
+		<script src="JS/GUI.js"></script>
+		<script src="JS/functions.js"></script>
+	</head>
+	
+	<body>
+		<div id="menu">
+			<menuTitle>Test Program - By Techial</menuTitle>
+			
+			<!-- Close Window (X) -->
+			<div class="transition exitButton right" style="width: 50px;" onClick="closeWindow();">X</div>
+			
+			<!-- Minimize Window (-) -->
+			<div class="transition minButton right" style="width: 50px;" onClick="minimizeWindow();">-</div>
+		</div>
+		
+			<div id="displayContainer">
+				<h1>Hello Node Webkit</h1><br>
+				Just putting a lot of bullshit here to test.<br>
+				BLAH<br>
+				blah<br>
+				blah..<br>
+				blah....<br>
+				BLAH<br>
+				blah<br>
+				blah..<br>
+				blah....<br>
+				BLAH<br>
+				blah<br>
+				blah..<br>
+				blah....<br>
+				BLAH<br>
+				blah<br>
+				blah..<br>
+				blah....<br>
+				BLAH<br>
+				blah<br>
+				blah..<br>
+				blah....<br>
+			</div>
+		
+		<!-- No idea if this needs to be at the bottom of the HTML file, but since I keep it at the bottom of the page I like to keep it at the bottom of the file. -->
+		<div id="scrollMore">There's more content further down!</div>
+		
+		<!-- Refresh scroll at the end of the page (Basically checking if there's anything below) -->
+		<script>refreshScroll();refreshGUI();</script>
+		<!-- Webpage is now rendered -->
+	</body>
+	
+</html>
