@@ -1,7 +1,7 @@
 {
-  "name": "helloWorld",
+  "name": "CHANGE THIS",
   "version": "0.0.1",
-  "description": "A Hello Node webkit app ",
+  "description": "CHANGE THIS",
   "main": "index.html",
   "window": {
     "toolbar": false,
