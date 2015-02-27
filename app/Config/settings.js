@@ -16,7 +16,7 @@ var scroll_MoreContentNotice = true;
 /////////////////
 
 var GUI_menu = true;
-// If you disable Menu you disable everything else
+// If you disable Menu you disable everything else inside the menu.
 var GUI_title = true;
 var GUI_minimizeButton = true;
 var GUI_exitButton = true;
