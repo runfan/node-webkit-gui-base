@@ -38,17 +38,25 @@ function activateExitButton(){
 function refreshGUI(){
 	if(!GUI_title){
 		disableTitle();
+	} else {
+		activateTitle();
 	}
 
 	if(!GUI_minimizeButton){
 		disableMinButton();
+	} else {
+		activateMinButton();
 	}
 
 	if(!GUI_exitButton){
 		disableExitButton();
+	} else {
+		activateExitButton();
 	}
 	
 	if(!GUI_menu){
 		disableMenu();
+	} else {
+		activateMenu();
 	}
 }
